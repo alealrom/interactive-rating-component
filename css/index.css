@@ -1,56 +1,135 @@
 * {
-    background: hsl(216, 12%, 8%);
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     color: hsl(217, 12%, 63%);
     font-family: 'Overpass', sans-serif;
 }
 
-.containerRating {
-    display: grid;
-    width: 350px;
-    place-content: center;
-    align-items: center;
-    background: hsl(213, 19%, 18%);
+main {
+    background: hsl(216, 12%, 8%);
 }
 
-.containerStart {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    background-color: hsl(216, 12%, 8%);
-    place-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 1px solid hsl(216, 12%, 8%);
+.containerRating {
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(35,42,52,1) 33%, rgba(28,35,45,1) 66%, rgba(26,30,39,1) 100%);
 }
 
 .iconStart {
-    background-color: hsl(216, 12%, 8%);
-}
-
-.textCopy {
-    width: 300px;
-    background: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 50px;
+    background: radial-gradient(circle, rgba(35,42,52,1) 33%, rgba(28,35,45,1) 66%, rgba(26,30,39,1) 100%);
 }
 
 .title {
+    padding: 15px 0;
     color: hsl(0, 0%, 100%);
-    background: hsl(213, 19%, 18%) ;
+    font-weight: 700;
 }
 
 .textCopy {
+    line-height: 22px;
     font-size: 15px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
 
+.buttonRating {
+    padding: 10px 15px;
+    border: 1px solid hsl(215.3,17.9%,18.6%);
+    border-radius: 50%;
+    background: hsl(215.3,17.9%,18.6%);
+}
+
+.buttonRating:hover {
+    background: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.buttonSelected {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submitButton {
+    width: 100%;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    border-radius: 50px;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.submitButton:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.secondCard {
+    display: none;
+}
+
+.imgThanks {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.centerRating {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ratingText {
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    background: hsl(215.3,17.9%,18.6%);
+    text-align: center;
+    color:hsl(25, 97%, 53%);
+}
+
+.textCenter {
+    text-align: center;
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    background-color: hsl(216, 12%, 8%);
 }
     
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

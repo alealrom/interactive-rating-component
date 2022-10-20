@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" type="text/css" href="./css/index.css"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-  
-  <title>alealrom | Interactive Rating Component</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-  <section class="containerRating">
-    <div class="containerStart">
-      <img class="iconStart" src="./img/icon-star.svg" alt="Icon of yellow start of five points."/>
-    </div>
-    <article class="text">
-    <h1 class="title">How did we do?</h1>
-    <p class="textCopy">Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
-</article>
-  <button class="buttonRaiting">1</button>
-  <button class="buttonRaiting">2</button>
-  <button class="buttonRaiting">3</button>
-  <button class="buttonRaiting">4</button>
-  <button class="buttonRaiting">5</button>
-
-  Submit
-
-  <!-- Rating state end -->
-  </section>
-  <section class="containerThank"><!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-</section>
-<footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-</footer>
-</body>
+    <title>alealrom | Interactive Rating Component</title>
+  </head>
+  <body>
+    <main class="containerRating">
+      <section class="firstCard card" role="firstCard">
+        <img
+          class="iconStart"
+          src="./img/icon-star.svg"
+          alt="Icon of yellow start of five points."
+        />
+        <h1 class="title">How did we do?</h1>
+        <p class="textCopy">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <article class="buttons" role="buttons">
+          <button class="buttonRating">1</button>
+          <button class="buttonRating">2</button>
+          <button class="buttonRating">3</button>
+          <button class="buttonRating">4</button>
+          <button class="buttonRating">5</button>
+        </article>
+        <button class="submitButton" role="submit">Submit</button>
+      </section>
+      <section class="secondCard card" role="secondCard">
+        <div class="imgThanks">
+        <img src="./img/illustration-thank-you.svg" alt=""/>
+        </div>
+        <div class="centerRating">
+        <p class="ratingText">You selected <span class="userRating ratingText" role="userRating"></span> out of 5</p>
+        </div>
+        <h1 class="title textCenter">Thank you!</h1>
+        <p class="textCopy textCenter">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p> 
+    </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://alealrom.co/">Alejandra Álvarez Romero</a>.
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
