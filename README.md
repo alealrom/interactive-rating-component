@@ -29,7 +29,7 @@ The challenge was to build out Interactive Rating Component and get it looking a
 ### Links
 
 - Solution URL: [https://github.com/alealrom/interactive-rating-component](https://github.com/alealrom/interactive-rating-component)
-- Live Site URL: []()
+- Live Site URL: [https://alealrom.github.io/interactive-rating-component/](https://alealrom.github.io/interactive-rating-component/)
 
 ## My Porcess
 
@@ -66,13 +66,13 @@ In this project I had the opportunity to test my JavaScript skills, and I learne
 
 - Appropriation of the concepts of function and cycles in JavaScript.
 
-```js
-    function selectionRating(event) {
-        for (let i=0; i < allButtons.length; i++) {
-            let button = allButtons[i];
-            button.classList.remove("buttonSelected");
-        }
-```
+  ```js
+      function selectionRating(event) {
+          for (let i=0; i < allButtons.length; i++) {
+              let button = allButtons[i];
+              button.classList.remove("buttonSelected");
+          }
+  ```
 
 - Unique responsibility by function.
 
