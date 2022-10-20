@@ -1,0 +1,56 @@
+* {
+    background: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.containerRating {
+    display: grid;
+    width: 350px;
+    place-content: center;
+    align-items: center;
+    background: hsl(213, 19%, 18%);
+}
+
+.containerStart {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(216, 12%, 8%);
+    place-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid hsl(216, 12%, 8%);
+}
+
+.iconStart {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.textCopy {
+    width: 300px;
+    background: hsl(213, 19%, 18%);
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    background: hsl(213, 19%, 18%) ;
+}
+
+.textCopy {
+    font-size: 15px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+    
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
