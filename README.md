@@ -28,8 +28,8 @@ The challenge was to build out Interactive Rating Component and get it looking a
 
 ### Links
 
-- Solution URL: [https://github.com/alealrom/interactive-rating-component](https://github.com/alealrom/interactive-rating-component)
-- Live Site URL: [https://alealrom.github.io/interactive-rating-component/](https://alealrom.github.io/interactive-rating-component/)
+- Solution URL: [https://github.com/alealrom/interactive_rating_component](https://github.com/alealrom/interactive_rating_component)
+- Live Site URL: [https://alealrom.github.io/interactive_rating_component/](https://alealrom.github.io/interactive_rating_component/)
 
 ## My Porcess
 
